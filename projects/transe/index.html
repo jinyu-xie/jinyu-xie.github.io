@@ -1,0 +1,261 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<style>:root{--accent-color:#FF4D4D}</style>
+<title>TransE</title>
+<meta name=description content="Sky above, sand below and peace within">
+<meta name=keywords content="blog,gokarna,hugo">
+<meta property="og:url" content="https://jinyu-xie.github.io/projects/transe/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TransE">
+<meta property="og:description" content="Sky above, sand below and peace within">
+<meta property="og:image" content="images/avatar.png">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:title content="TransE">
+<meta name=twitter:description content="Sky above, sand below and peace within">
+<meta property="twitter:domain" content="https://jinyu-xie.github.io/projects/transe/">
+<meta property="twitter:url" content="https://jinyu-xie.github.io/projects/transe/">
+<meta name=twitter:image content="images/avatar.png">
+<link rel=canonical href=https://jinyu-xie.github.io/projects/transe/>
+<link rel=stylesheet type=text/css href=https://jinyu-xie.github.io//css/normalize.min.css media=print onload="this.media='all'">
+<link rel=stylesheet type=text/css href=https://jinyu-xie.github.io//css/main.css>
+<link disabled id=dark-theme rel=stylesheet href=https://jinyu-xie.github.io//css/dark.css>
+<script src=https://jinyu-xie.github.io//js/svg-injector.min.js></script>
+<script src=https://jinyu-xie.github.io//js/feather-icons.min.js></script>
+<script src=https://jinyu-xie.github.io//js/main.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css integrity=sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC crossorigin=anonymous>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js integrity=sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:!0},{left:'$',right:'$',display:!1}],throwOnError:!1})})</script>
+</head>
+<body>
+<script type=text/javascript>setThemeByUserPref()</script><header class=header>
+<nav class=header-nav>
+<div class=avatar>
+<a href=https://jinyu-xie.github.io/>
+<img src=https://jinyu-xie.github.io/images/avatar.png alt=avatar>
+</a>
+</div>
+<div class=nav-title>
+<a class=nav-brand href=https://jinyu-xie.github.io/>Xie Jinyu's Blog</a>
+</div>
+<div class=nav-links>
+<div class=nav-link>
+<a href=https://jinyu-xie.github.io/><span data-feather=home></span> Home </a>
+</div>
+<div class=nav-link>
+<a href=https://jinyu-xie.github.io/posts/><span data-feather=book></span> Posts </a>
+</div>
+<div class=nav-link>
+<a href=https://jinyu-xie.github.io/projects/><span data-feather=code></span> Projects </a>
+</div>
+<div class=nav-link>
+<a href=https://jinyu-xie.github.io/tags/><span data-feather=tag></span> Tags </a>
+</div>
+<div class=nav-link>
+<a href=https://github.com/jinyu-xie><span data-feather=github></span> </a>
+</div>
+<div class=nav-link>
+<a href=https://jinyu-xie.github.io/index.xml><span data-feather=rss></span> </a>
+</div>
+<span class=nav-icons-divider></span>
+<div class="nav-link dark-theme-toggle">
+<span id=dark-theme-toggle-screen-reader-target class=sr-only></span>
+<a>
+<span id=theme-toggle-icon data-feather=moon></span>
+</a>
+</div>
+<div class=nav-link id=hamburger-menu-toggle>
+<span id=hamburger-menu-toggle-screen-reader-target class=sr-only>menu</span>
+<a>
+<span data-feather=menu></span>
+</a>
+</div>
+<ul class="nav-hamburger-list visibility-hidden">
+<li class=nav-item>
+<a href=https://jinyu-xie.github.io/><span data-feather=home></span> Home </a>
+</li>
+<li class=nav-item>
+<a href=https://jinyu-xie.github.io/posts/><span data-feather=book></span> Posts </a>
+</li>
+<li class=nav-item>
+<a href=https://jinyu-xie.github.io/projects/><span data-feather=code></span> Projects </a>
+</li>
+<li class=nav-item>
+<a href=https://jinyu-xie.github.io/tags/><span data-feather=tag></span> Tags </a>
+</li>
+<li class=nav-item>
+<a href=https://github.com/jinyu-xie><span data-feather=github></span> </a>
+</li>
+<li class=nav-item>
+<a href=https://jinyu-xie.github.io/index.xml><span data-feather=rss></span> </a>
+</li>
+<li class="nav-item dark-theme-toggle">
+<span id=dark-theme-toggle-screen-reader-target class=sr-only>theme</span>
+<a>
+<span id=theme-toggle-icon data-feather=moon></span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<main id=content>
+<div class="post container">
+<div class=post-header-section>
+<h1>TransE</h1>
+</div>
+<div class=post-content>
+<p>
+<h2 id=前言>前言</h2>
+<p>电子科技大学数据结构与算法课程任务</p>
+<p>表示学习旨在学习一系列低维稠密向量来表示语言信息，而知识表示学习是面向知识库中实体和关系的表示学习。当今大规模知识库（或称为知识图谱）的构建为许多NLP任务提供了底层支持，但由于其规模庞大且不完备，如何高效存储和补全知识库成为了一项非常重要的任务，这就依托于知识表示学习。</p>
+<p><a href=https://proceedings.neurips.cc/paper/2013/hash/1cecc7a77928ca8133fa24680a88d2f9-Abstract.html>TransE算法</a>是经典的知识表示学习算法。</p>
+<h2 id=算法原理>算法原理</h2>
+<h3 id=数据集>数据集</h3>
+<p><a href=https://www.kaggle.com/datasets/huihuixu/fb15k-237>FB15K-237 </a> 是知识图谱<a href=https://www.semanticscholar.org/paper/Freebase%3A-a-collaboratively-created-graph-database-Bollacker-Evans/1976c9eeccc7115d18a04f1e7fb5145db6b96002>Freebase</a>的子集，后者具有19亿个三元组，前者包含了其中544230个三元组，有14505个主题词，237种关系（不分正反）。</p>
+<p>FB15K-237被拆分为训练集、验证集和测试集。统计数据如下：</p>
+<table>
+<thead>
+<tr>
+<th>统计属性\集合</th>
+<th>train</th>
+<th>valid</th>
+<th>test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主题词总数</td>
+<td>13781</td>
+<td>7652</td>
+<td>8171</td>
+</tr>
+<tr>
+<td>三元组总数</td>
+<td>272115</td>
+<td>17535</td>
+<td>20466</td>
+</tr>
+<tr>
+<td>关系的种类数</td>
+<td>237</td>
+<td>223</td>
+<td>224</td>
+</tr>
+<tr>
+<td>每个主题词的平均三元组数</td>
+<td>19.75</td>
+<td>2.29</td>
+<td>2.50</td>
+</tr>
+<tr>
+<td>每个主题词的平均关系数</td>
+<td>6.78</td>
+<td>1.58</td>
+<td>1.68</td>
+</tr>
+<tr>
+<td>每个关系连接的平均实体数</td>
+<td>2.91</td>
+<td>1.45</td>
+<td>1.49</td>
+</tr>
+</tbody>
+</table>
+<h3 id=背景知识>背景知识</h3>
+<p>一条<strong>知识图谱</strong>可以表示为一个三元组(sub,rel,obj)。前者是主体(h，头实体)，中间是关系(r)，后者是客体(t，尾实体)。主体和客体统称为实体（entity）。关系不可逆，也就是说主体和客体不能颠倒过来。知识图谱的集合，链接起来成为一个<strong>图（graph）</strong>，每个节点是一个一个实体，每条边是一个关系，或者说是一个事实（fact）。也就是有向图，主体指向客体。</p>
+<p>知识表示实际上是让知识图谱的实体和关系向量化。具体的说，就是将知识库中所有的实体、关系表示成一个低纬度的向量。即$(h,r,t)\rightarrow(\vec h,\vec r,\vec t)$。</p>
+<h3 id=transe算法>TransE算法</h3>
+<p>TransE认为一个正确的三元组的编码满足$\vec h + \vec r=\vec t$，即头实体的编码加上关系的编码会等于尾实体的编码，而错误的三元组不满足这种关系。</p>
+<p>于是定义了一个函数$d(\vec h+\vec r,~\vec t)$表示$\vec h+\vec r$与$\vec t$ 的距离，一般会选取向量的一范数或二范数。在设计损失函数时需要减小正确三元组的距离，增大错误三元组的距离，故损失函数可表示为下式：
+$$
+loss=\sum_{(h,r,t\in S)}\sum_{(h',r,t'\in S')}[\gamma + d(h+r,t)-d(h'+r, t')]_+
+$$
+其中</p>
+<blockquote>
+<p>$S$ 表示正确的三元组集合</p>
+<p>$S'$ 表示错误的三元组集合，通过随机替换正确三元组的头实体或尾实体，使之不存在于知识图谱中</p>
+<p>$\gamma$表示正负样本之间的间距, 是一个常数</p>
+<p>$[x]_+$ 表示$\max(0,x)$</p>
+<p>通常为了方便训练避免过拟合，会加上约束条件，使实体与关系的编码向量长度小于等于1</p>
+</blockquote>
+<p>而损失函数的梯度也易于求解，以二范数为例，损失函数对头实体的偏导为：
+$$
+\frac{\partial loss}{\partial h_i}=\begin{cases}2(h_i+r-t) & \gamma+(h_i+r-t)^2-(h'+r-t')^2>0; \ 0 & \gamma+(h_i+r-t)^2-(h'+r-t')^2\leq 0\end{cases}
+$$</p>
+<h3 id=评分指标>评分指标</h3>
+<p>该领域常用的评分指标有$mean~rank$和$hit@10$。</p>
+<p>训练完后的实体entity，以及关系relation都是一维向量。对于某一测试数据$(h_0,r_0,t_0)$，将头实体或者尾实体替换成任意一种其它实体(n-1)个，这样得到$2*(n-1)$个新的三元组。接下来对这些三元组计算距离，再将他们进行升序排序，接下来就是计算两个评分指标了，对测试数据集中的数据都需要做如上操作。</p>
+<p>对于$mean~rank$，在上述排好序的三元组中，正确的三元组的平均排名；</p>
+<p>对于$hit@10$，在排好序的三元组中，如果前十个中有正确的三元组，则hit加一，最后计算hit的平均值除以测试数据总数，即正确三元组出现在前十的概率。</p>
+<p>事实上，在上诉中构建的若干$n-1$的三元组中，可能有一些是存在于知识图谱中但不是测试的正确三元组，故上述方法低估了训练结果的能力，需要将这些三元组过滤，论文将不过滤得到的指标记为<code>raw</code>，将过滤后得到的指标记为<code>flit</code>，显然使用<code>flit</code>测试将会变得很慢。</p>
+<p>计算评分指标代码如下</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python>        <span style=color:#66d9ef>for</span> triple <span style=color:#f92672>in</span> self<span style=color:#f92672>.</span>test_triples:
+            num <span style=color:#f92672>+=</span> <span style=color:#ae81ff>1</span>
+			<span style=color:#f92672>...</span> <span style=color:#75715e># 中间省去对测试数据的过滤，更换头尾实体，计算距离等操作。</span>
+            rank_head_sorted <span style=color:#f92672>=</span> sorted(rank_head_dict<span style=color:#f92672>.</span>items(), key<span style=color:#f92672>=</span>operator<span style=color:#f92672>.</span>itemgetter(<span style=color:#ae81ff>1</span>), reverse<span style=color:#f92672>=</span><span style=color:#66d9ef>False</span>)
+            rank_tail_sorted <span style=color:#f92672>=</span> sorted(rank_tail_dict<span style=color:#f92672>.</span>items(), key<span style=color:#f92672>=</span>operator<span style=color:#f92672>.</span>itemgetter(<span style=color:#ae81ff>1</span>), reverse<span style=color:#f92672>=</span><span style=color:#66d9ef>False</span>)
+            <span style=color:#75715e># 计算hit_at_10和mean rank</span>
+            <span style=color:#75715e># 对于更换头实体的数据</span>
+            i <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>
+            <span style=color:#66d9ef>for</span> i <span style=color:#f92672>in</span> range(len(rank_head_sorted)):
+                <span style=color:#66d9ef>if</span> triple[<span style=color:#ae81ff>0</span>] <span style=color:#f92672>==</span> rank_head_sorted[i][<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>0</span>]:  <span style=color:#75715e># 找到真实数据</span>
+                    <span style=color:#66d9ef>if</span> i <span style=color:#f92672>&lt;</span> <span style=color:#ae81ff>10</span>:  <span style=color:#75715e># 在十以内</span>
+                        hits <span style=color:#f92672>+=</span> <span style=color:#ae81ff>1</span>
+                    rank_sum <span style=color:#f92672>=</span> rank_sum <span style=color:#f92672>+</span> i <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>
+                    <span style=color:#66d9ef>break</span>
+            <span style=color:#75715e># 对于更换尾实体的数据</span>
+            i <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>
+            <span style=color:#66d9ef>for</span> i <span style=color:#f92672>in</span> range(len(rank_tail_sorted)):
+                <span style=color:#66d9ef>if</span> triple[<span style=color:#ae81ff>2</span>] <span style=color:#f92672>==</span> rank_tail_sorted[i][<span style=color:#ae81ff>0</span>][<span style=color:#ae81ff>2</span>]:  <span style=color:#75715e># 找到真实数据</span>
+                    <span style=color:#66d9ef>if</span> i <span style=color:#f92672>&lt;</span> <span style=color:#ae81ff>10</span>:   <span style=color:#75715e># 在十以内</span>
+                        hits <span style=color:#f92672>+=</span> <span style=color:#ae81ff>1</span>
+                    rank_sum <span style=color:#f92672>=</span> rank_sum <span style=color:#f92672>+</span> i <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>
+                    <span style=color:#66d9ef>break</span>
+            <span style=color:#66d9ef>if</span> num <span style=color:#f92672>%</span> <span style=color:#ae81ff>5000</span> <span style=color:#f92672>==</span> <span style=color:#ae81ff>0</span>:
+                print(
+                    <span style=color:#e6db74>&#34;num: &#34;</span>,
+                    num,
+                    <span style=color:#e6db74>&#34;hit_at_10:&#34;</span>,
+                    str(round(<span style=color:#ae81ff>100</span> <span style=color:#f92672>*</span> hits <span style=color:#f92672>/</span> (<span style=color:#ae81ff>2</span> <span style=color:#f92672>*</span> num), <span style=color:#ae81ff>3</span>)) <span style=color:#f92672>+</span> <span style=color:#e6db74>&#39;%&#39;</span>,
+                    <span style=color:#e6db74>&#34;mean_rank:&#34;</span>,
+                    str(round(rank_sum <span style=color:#f92672>/</span> (<span style=color:#ae81ff>2</span> <span style=color:#f92672>*</span> num), <span style=color:#ae81ff>3</span>)),
+                )
+        self<span style=color:#f92672>.</span>hit_10 <span style=color:#f92672>=</span> hits <span style=color:#f92672>/</span> (<span style=color:#ae81ff>2</span> <span style=color:#f92672>*</span> len(self<span style=color:#f92672>.</span>test_triples))
+        self<span style=color:#f92672>.</span>mean_rank <span style=color:#f92672>=</span> rank_sum <span style=color:#f92672>/</span> (<span style=color:#ae81ff>2</span> <span style=color:#f92672>*</span> len(self<span style=color:#f92672>.</span>test_triples))
+        <span style=color:#66d9ef>return</span> self<span style=color:#f92672>.</span>hit_10, self<span style=color:#f92672>.</span>mean_rank
+</code></pre></div><h2 id=模型训练>模型训练</h2>
+</p>
+</div>
+</div>
+<aside class=post-toc>
+<nav id=toc>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#前言>前言</a></li>
+<li><a href=#算法原理>算法原理</a>
+<ul>
+<li><a href=#数据集>数据集</a></li>
+<li><a href=#背景知识>背景知识</a></li>
+<li><a href=#transe算法>TransE算法</a></li>
+<li><a href=#评分指标>评分指标</a></li>
+</ul>
+</li>
+<li><a href=#模型训练>模型训练</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</nav>
+</aside>
+</main><footer class=footer>
+<span>&copy; 2022 The Marauders</span>
+<span>
+Made with &#10084;&#65039; using <a target=_blank href=https://github.com/526avijitgupta/gokarna>Gokarna</a>
+</span>
+</footer>
+</body>
+</html>
