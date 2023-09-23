@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hyperspectral denoising | Academic</title>
+    <link>https://jinyu-xie.github.io/tag/hyperspectral-denoising/</link>
+      <atom:link href="https://jinyu-xie.github.io/tag/hyperspectral-denoising/index.xml" rel="self" type="application/rss+xml" />
+    <description>hyperspectral denoising</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jinyu-xie.github.io/media/icon_hu7e56f4fa06e4e7fd9e02b16eb76ccea0_72256_512x512_fill_lanczos_center_3.png</url>
+      <title>hyperspectral denoising</title>
+      <link>https://jinyu-xie.github.io/tag/hyperspectral-denoising/</link>
+    </image>
+    
+    <item>
+      <title>H2TF for Hyperspectral Image Denoising: Where Hierarchical Nonlinear Transform Meets Hierarchical Matrix Factorization</title>
+      <link>https://jinyu-xie.github.io/publication/h2tf/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://jinyu-xie.github.io/publication/h2tf/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
