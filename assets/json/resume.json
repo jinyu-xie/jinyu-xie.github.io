@@ -33,9 +33,21 @@
       "name": "H2TF for Hyperspectral Image Denoising: Where Hierarchical Nonlinear Transform Meets Hierarchical Matrix Factorization",
       "publisher": "IEEE Geoscience and Remote Sensing Letters",
       "releaseDate": "2023-07-23",
-      "url": "https://ieeexplore.ieee.org/document/10181304",
-      "summary": "It introduces a novel tensor factorization method, H2TF, for hyperspectral image denoising. H2TF leverages two key aspects of tensor singular value decomposition: the low-rank enhanced transform and the low-rank characterization of transformed frontal slices."
+      "url": "https://ieeexplore.ieee.org/document/10181304"
+    },
+    {
+      "name": "Learnable Transform-Assisted Tensor Decomposition for Spatio-Irregular Multidimensional Data Recovery",
+      "publisher": "ACM Transactions on Knowledge Discovery from Data",
+      "releaseDate": "2024-10-21",
+      "url": "https://dl.acm.org/doi/10.1145/3701235"
+    },
+    {
+      "name": "Bi-Level Tensor Decomposition for Hyperspectral Image Restoration",
+      "publisher": "IEEE International Geoscience and Remote Sensing Symposium",
+      "releaseDate": "2024-07-12",
+      "url": "https://ieeexplore.ieee.org/document/10640494"
     }
+
   ],
   "awards": [
     {

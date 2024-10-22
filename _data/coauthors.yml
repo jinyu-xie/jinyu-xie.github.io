@@ -29,6 +29,12 @@
 "zhang":
   - firstname: ["Shu-Qin", "S.-Q.", "S.", "Shuqin"]
     url: https://am.fudan.edu.cn/6f/a2/c44820a683938/page.htm
+  - firstname: ["Hao", "H."]
+    url: https://orcid.org/0000-0002-4786-555X
+
+"xu":
+  - firstname: ["Zhi", "Z."]
+    url: https://ieeexplore.ieee.org/author/507581164657690
 
 "jiang":
   - firstname: ["Tai-Xiang", "T.-X.", "T.", "Taixiang"]
