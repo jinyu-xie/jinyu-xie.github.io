@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-07-14 11:12:00-0800
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+One paper was submitted to [Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems). 

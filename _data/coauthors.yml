@@ -1,34 +1,45 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"zhao":
+  - firstname: ["Xi-Le", "X.", "X.-L.", "Xile"]
+    url: https://zhaoxile.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"luo":
+  - firstname: ["Yi-Si", "Y.", "Y. S.", "Yisi"]
+    url: https://yisiluo.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"li":
+  - firstname: ["Jia-Yi", "J.-Y.", "J.", "Jiayi"]
+    url: https://scholar.google.com/citations?user=5m-dt98AAAAJ
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"wang":
+  - firstname: ["Jian-Li", "J.-L.", "J.", "Jianli"]
+    url: https://wangjianli123.github.io/homepage/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"liu":
+  - firstname: ["Yun-Yang", "Y.-Y.", "Y.", "Yunyang"]
+    url: https://yun-yangliu.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"vivone":
+  - firstname: ["Gemine", "G."]
+    url: https://sites.google.com/site/vivonegemine/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"huang":
+  - firstname: ["Ting-Zhu", "T.-Z.", "T.", "Tingzhu"]
+    url: https://scholar.google.com/citations?hl=zh-CN&user=H7El-ZkAAAAJ
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"zhang":
+  - firstname: ["Shu-Qin", "S.-Q.", "S.", "Shuqin"]
+    url: https://am.fudan.edu.cn/6f/a2/c44820a683938/page.htm
+  - firstname: ["Hao", "H."]
+    url: https://orcid.org/0000-0002-4786-555X
 
-"planck":
-  - firstname: ["Max"]
+"xu":
+  - firstname: ["Zhi", "Z."]
+    url: https://ieeexplore.ieee.org/author/507581164657690
+
+"jiang":
+  - firstname: ["Tai-Xiang", "T.-X.", "T.", "Taixiang"]
+    url: https://taixiangjiang.github.io/
+
+"ng":
+  - firstname: ["Michael Kwok-Po", "M. K.", "M.", "Michael"]
     url: https://en.wikipedia.org/wiki/Max_Planck

@@ -1,115 +1,49 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{h2tf,
+    bibtex_show={true},
+    abbr={IEEE GRSL},
+    author={Xie*, Jin-Yu and Li*, Jia-Yi and Luo, Yi-Si and Zhao†, Xi-Le and Wang, Jian-Li},
+    journal={IEEE Geoscience and Remote Sensing Letters}, 
+    title={{H2TF} for Hyperspectral Image Denoising: Where Hierarchical Nonlinear Transform Meets Hierarchical Matrix Factorization}, 
+    abstract={Recently, tensor singular value decomposition(t-SVD) has emerged as a promising tool for hyperspectral image (HSI) processing. In the t-SVD, there are two key building blocks: 1) the low-rank enhanced transform and 2) the accompanying low-rank characterization of transformed frontal slices. Previous t-SVD methods mainly focus on the developments of 1), while neglecting the other important aspect, i.e., the exact characterization of transformed frontal slices. In this letter, we exploit the potentiality in both building blocks by leveraging the hierarchical nonlinear transform (HNT) and the hierarchical matrix factorization (HMF) to establish a new tensor factorization (termed as H2TF). Compared with shallow counter partners, e.g., low-rank matrix factorization (MF) or its convex surrogates, H2TF can better capture complex structures of transformed frontal slices due to its hierarchical modeling abilities. We then suggest the H2TF-based HSI denoising model and develop an alternating direction method of multipliers-based algorithm to address the resultant model. Extensive experiments validate the superiority of our method over state-of-the-art (SOTA) HSI denoising methods.},
+    preview={H2TF.png},
+    year={2023},
+    volume={20},
+    code={https://github.com/jinyu-xie/H2TF},
+    doi={10.1109/LGRS.2023.3294933},
+    html={https://ieeexplore.ieee.org/document/10181304},
+    pdf={H2TF_for_Hyperspectral_Image_Denoising_Where_Hierarchical_Nonlinear_Transform_Meets_Hierarchical_Matrix_Factorization.pdf},
+    selected={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@article{LTA-TSVD,
+    bibtex_show={true},
+    abbr={ACM TKDD},
+    author = {Zhang, Hao and Huang, Ting-Zhu and Zhao, Xi-Le and Zhang, Shu-Qin and Xie, Jin-Yu and Jiang, Tai-Xiang and Ng, Michael K.},
+    journal = {ACM Transactions on Knowledge Discovery from Data},
+    title = {Learnable Transform-Assisted Tensor Decomposition for Spatio-Irregular Multidimensional Data Recovery},
+    abstract = {Tensor decompositions have been successfully applied to multidimensional data recovery. However, classical tensor decompositions are not suitable for emerging spatio-irregular multidimensional data (i.e., spatio-irregular tensor), whose spatial domain is non-rectangular, e.g., spatial transcriptomics data from bioinformatics and semantic units from computer vision. By using preprocessing (e.g., zero-padding or element-wise 0-1 weighting), the spatio-irregular tensor can be converted to a spatio-regular tensor and then classical tensor decompositions can be applied, but this strategy inevitably introduces bias information, leading to artifacts. How to design a tensor-based method suitable for emerging spatio-irregular tensors is an imperative challenge. To address this challenge, we propose a learnable transform-assisted tensor singular value decomposition (LTA-TSVD) for spatio-irregular tensor recovery, which allows us to leverage the intrinsic structure behind the spatio-irregular tensor. Specifically, we design a learnable transform to project the original spatio-irregular tensor into its latent spatio-regular tensor, and then the latent low-rank structure is captured by classical TSVD on the resulting regular tensor. Empowered by LTA-TSVD, we develop spatio-irregular low-rank tensor completion (SIR-LRTC) and spatio-irregular tensor robust principal component analysis (SIR-TRPCA) models for the spatio-irregular tensor imputation and denoising respectively, and we design corresponding solving algorithms with theoretical convergence. Extensive experiments including the spatial transcriptomics data imputation and hyperspectral image denoising show SIR-LRTC and SIR-TRPCA are superior performance to competing approaches and benefit downstream applications.},
+    preview = {LTA-TSVD.png},
+    year = {2024},
+    doi = {10.1145/3701235},
+    html = {https://dl.acm.org/doi/10.1145/3701235},
+    pdf = {Learnable-Transform-Assisted-Tensor-Decomposition-for-Spatio-Irregular-Multidimensional-Data-Recovery.pdf},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{BLTD,
+    abbr={IEEE IGARSS},
+    bibtex_show={true},
+    author = {Liu, Yun-Yang and Zhao†, Xi-Le and Xie, Jin-Yu and Xu, Zhi and Vivone, Gemine},
+    title = {Bi-Level Tensor Decomposition for Hyperspectral Image Restoration},
+    abstract = {This paper proposes a bi-level tensor decomposition (BLTD), properly exploiting the characterization advantages of tensor subspace representation (TSR) and tensor ring decomposition (TRD). More specifically, the first level is related to the decomposition of a third-order tensor into its TSR using the tensor-tensor product (t-product), and the second level performs TRD on the coefficient tensor obtained by TSR. Leveraging the proposed BLTD, we design a bi-level tensor nuclear norm (BLTNN)-based model for hyperspectral images (HSIs) denoising. To solve the model, we develop an efficient alternating direction method of multipliers (ADMM)-based algorithm. Experimental results demonstrate the superior performance of our method compared to existing methods.},
+    year = {2024},
+    doi = {10.1109/IGARSS53475.2024.10640494},
+    html ={https://ieeexplore.ieee.org/document/10640494},
+    preview = {BLTD.png},
+    booktitle = {IEEE International Geoscience and Remote Sensing Symposium},
+    pdf = {Bi-Level-Tensor-Decomposition-for-Hyperspectral-Image-Restoration.pdf}
 }

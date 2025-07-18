@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Jinyu Xie
     - name: Date of Birth
-      value: 14th March 1879
+      value: 22nd January 2023
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Oregon State University, Corvallis, Oregon, US
+      year: 2025 - present
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: undergraduate
+      institution: University of Electronic Science and Technology of China, Chengdu, China
+      year: 2021 - 2025
       description:
         - Description 1.
         - Description 2.
