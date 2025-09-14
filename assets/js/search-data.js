@@ -23,17 +23,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-one-paper-was-submitted-to-knowledge-based-systems",
-          title: 'One paper was submitted to Knowledge-Based Systems.',
+        },{id: "news-a-paper-has-been-accepted-by-knowledge-based-systems",
+          title: 'A paper has been accepted by Knowledge-Based Systems.',
           description: "",
           section: "News",},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%78%69%65%6A%69%6E%79%75%35%35%34@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
