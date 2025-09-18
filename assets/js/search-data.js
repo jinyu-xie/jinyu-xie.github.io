@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-paper-has-been-accepted-by-knowledge-based-systems",
-          title: 'A paper has been accepted by Knowledge-Based Systems.',
+        },{id: "news-a-paper-got-accepted-by-knowledge-based-systems",
+          title: 'A paper got accepted by Knowledge-Based Systems.',
           description: "",
           section: "News",},{
         id: 'social-github',
