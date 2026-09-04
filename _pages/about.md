@@ -27,6 +27,6 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a first-year Ph.D. student majoring in AI in the School of Electrical Engineering and Computer Science at Oregon State University ([OSU](https://oregonstate.edu/)), under the supervision of [Prof. Xiao Fu](https://web.engr.oregonstate.edu/~fuxia/).
+I am a first-year Ph.D. student majoring in AI in the School of Electrical Engineering and Computer Science at Oregon State University ([OSU](https://oregonstate.edu/)), under the supervision of [Prof. Xiao Fu](https://xiaofu-group.github.io/).
 
 I received my Bachelor of Science in Mathematics-Physics Fundamental science from the Yingcai Honors College at the University of Electronic Science and Technology of China ([UESTC](https://www.uestc.edu.cn/)) in 2025. My advisor was [Prof. Xile Zhao](https://zhaoxile.github.io/). My research focused on designing tensor decomposition algorithms for data reconstruction.
